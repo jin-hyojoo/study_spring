@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Hello</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<!--
+    컨트롤러에서 model.addAttribute("data", "hello!!"); 로 뷰단에 넘김
+    data는 키값, hello!!는 value값. 따라서 [안녕하신가요. SpringBoot!] 웹문서에 표시됨
+-->
+<p th:text="'안녕하신가요. ' + ${data} ">context</p>
+</body>
+</html>
