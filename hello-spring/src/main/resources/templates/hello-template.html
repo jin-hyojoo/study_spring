@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<!--
+    thymeleaf 장점 중 하나는 서버 실행하지 않아도 파일 경로 주소창에 입력시 확인 가능
+    ex. C:\Users\user\Desktop\study_spring-master\hello-spring\src\main\resources\templates\hello-template.html
+-->
+<p th:text="'Hello ' + ${name} ">Hello! empty</p>
+</body>
+</html>
