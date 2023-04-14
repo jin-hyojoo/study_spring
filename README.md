@@ -10,11 +10,11 @@
  `노션`　[정리](https://nyozu.notion.site/Spring-75ca6948f7bc4d23b9efee341ed7a9a5) 
    
 
-## ⛳ Study2. [hello-spring](https://github.com/jin-hyojoo/study_spring/tree/master/hello-spring)
+## ⛳ Study2. [mvc1](https://github.com/jin-hyojoo/study_spring/tree/master/mvc1/servlet)
 
- `강의명` [스프링 입문, 스프링부트](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)
+ `강의명` [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
  
- `노션`　[정리](https://nyozu.notion.site/86c9b07823904e0c8326fbf311af706d) 
+ `노션`　[정리](https://nyozu.notion.site/Spring-MVC-1-5d21380cad954f2bada4d33096a22b47) 
    
 </br></br>
 
