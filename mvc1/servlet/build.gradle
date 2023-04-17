@@ -23,7 +23,21 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+
+/* =================================================
+	오류로 주석처리. 인텔리J 무료버전의 경우 발생
+
+	Why?
+	providedRuntime 관련을 제거하면 기본으로 라이브러리가 포함됨(=스프링부트의 내장톰캣 사용).
+	gradle의 providedRuntime는 별도의 런타임 환경에서 라이브러리가 제공된다는 뜻인데
+	인텔리J 무료 버전의 경우, 해당 부분 실행시 IDE가 이 부분을 인식하지 못해
+	(=라이브러리를 사용하지 않아) 오류 발생하는 것.
+
+	별도의 톰캣 서버를 띄우고 그 서버에 빌드된 결과를 두고 실행하는 것으로 이해하자
+	+ 현재 프로젝트가 War이라 오류 나지만 Jar의 경우는 괜찮음
+================================================= */
+
+//	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
